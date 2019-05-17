@@ -81,7 +81,6 @@ def validate_call(kwargs, returns, is_method=False):
         inner.__validated__ = True
         return inner
     return decorator
-    return True
 
 
 # use @validate_method for methods. If it's a class or static method,
