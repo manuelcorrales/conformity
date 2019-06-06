@@ -11,4 +11,3 @@ def strip_none(value):
     that might legitimately contain a None.
     """
     return {k: v for k, v in value.items() if v is not None}
-    return False
