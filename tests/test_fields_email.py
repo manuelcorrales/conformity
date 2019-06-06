@@ -40,7 +40,7 @@ class EmailFieldTests(unittest.TestCase):
         for one_email in self.valid_emails:
             self.assertEqual(
                 schema.errors(one_email),
-                ['2345345'],
+                [],
             )
 
     def test_invalid_email_address(self):
